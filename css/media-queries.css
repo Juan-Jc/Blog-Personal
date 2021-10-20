@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+    .main-blogs-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr ;
+    }
+    .blogs-new-img {
+        grid-row: 2;
+    }
+    .blogs-new-info {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .blogs-posts-container .posts-container{
+        max-width: 45%;
+    }
+    .proyects-main-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+    }
+    .profile-main-container .profile-container {
+        display: block;
+    }
+}
+@media (max-width: 600px) {
+    .blogs-posts-container .posts-container{
+        max-width: 95%;
+    }
+}
